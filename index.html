@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Optisense AI — AI-powered intelligent infrastructure for ANPR, smart parking, access control, and logistics intelligence. Enterprise-grade real-time vehicle intelligence for modern campuses." />
+  <title>Optisense AI — AI-Powered Vision for Real-World Infrastructure</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232563eb'/%3E%3Ctext x='16' y='22' text-anchor='middle' fill='white' font-size='18' font-weight='800' font-family='Inter,system-ui'%3EO%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/css/design-system.css" />
+  <link rel="stylesheet" href="/css/landing.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="landing-nav" id="landing-nav">
+    <div class="nav-brand">
+      <div class="nav-logo">O</div>
+      <span class="nav-name">Optisense AI</span>
+    </div>
+    <div class="nav-links">
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#use-cases" class="nav-link">Use Cases</a>
+      <a href="#demo" class="nav-link">Demo</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+    </div>
+    <div class="nav-actions">
+      <a href="app.html" class="btn btn-ghost btn-sm">Sign In</a>
+      <a href="app.html" class="btn btn-primary btn-sm">View Demo</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container-wide">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">Now in Production</div>
+          <h1>AI-Powered Vision for <span class="gradient-text">Real-World Infrastructure</span></h1>
+          <p class="hero-subtitle">Real-time vehicle intelligence, smart parking, access control, and logistics intelligence for modern campuses, enterprises, and smart infrastructure.</p>
+          <div class="hero-buttons">
+            <a href="app.html" class="btn btn-primary btn-lg">View Live Demo →</a>
+            <a href="#pricing" class="btn btn-secondary btn-lg">Request Access</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-value">98.4%</span>
+              <span class="hero-stat-label">ANPR Accuracy</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">2.1M</span>
+              <span class="hero-stat-label">Vehicles Processed</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">34%</span>
+              <span class="hero-stat-label">Efficiency Gain</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">18</span>
+              <span class="hero-stat-label">Deployments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-preview">
+          <div class="hero-dashboard">
+            <div class="hero-db-header">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <span class="hero-db-title">dashboard.optisense.ai</span>
+              <div style="width:42px"></div>
+            </div>
+            <div class="hero-db-body">
+              <div class="hero-db-stats">
+                <div class="hero-db-stat">
+                  <div class="hero-db-stat-label">Vehicles Today</div>
+                  <div class="hero-db-stat-value">1,247</div>
+                  <div class="hero-db-stat-change up">▲ 12%</div>
+                </div>
+                <div class="hero-db-stat">
+                  <div class="hero-db-stat-label">Parking Usage</div>
+                  <div class="hero-db-stat-value">66.3%</div>
+                  <div class="hero-db-stat-change up">▲ 8%</div>
+                </div>
+                <div class="hero-db-stat">
+                  <div class="hero-db-stat-label">Revenue</div>
+                  <div class="hero-db-stat-value">₹60.9K</div>
+                  <div class="hero-db-stat-change up">▲ 18%</div>
+                </div>
+                <div class="hero-db-stat">
+                  <div class="hero-db-stat-label">ANPR Accuracy</div>
+                  <div class="hero-db-stat-value">98.4%</div>
+                  <div class="hero-db-stat-change up">▲ 0.3%</div>
+                </div>
+              </div>
+              <div class="hero-db-grid">
+                <div class="hero-db-card">
+                  <div class="hero-db-card-title">
+                    <span>Vehicle Flow</span>
+                    <span style="font-size:8px;color:var(--green-500)">● LIVE</span>
+                  </div>
+                  <div class="mini-bars" id="hero-bars">
+                    <div class="mini-bar" style="height:15%"></div>
+                    <div class="mini-bar" style="height:35%"></div>
+                    <div class="mini-bar" style="height:65%"></div>
+                    <div class="mini-bar" style="height:90%"></div>
+                    <div class="mini-bar" style="height:72%"></div>
+                    <div class="mini-bar" style="height:55%"></div>
+                    <div class="mini-bar" style="height:48%"></div>
+                    <div class="mini-bar green" style="height:42%"></div>
+                    <div class="mini-bar green" style="height:60%"></div>
+                    <div class="mini-bar amber" style="height:78%"></div>
+                    <div class="mini-bar amber" style="height:70%"></div>
+                    <div class="mini-bar" style="height:55%"></div>
+                  </div>
+                </div>
+                <div class="hero-db-card">
+                  <div class="hero-db-card-title">
+                    <span>Recent ANPR</span>
+                    <span style="font-size:8px;color:var(--slate-400)">View all</span>
+                  </div>
+                  <div class="mini-table">
+                    <div class="mini-table-row">
+                      <span class="mini-table-cell">KA01MN4821</span>
+                      <span class="mini-table-cell">98.7%</span>
+                      <span class="mini-table-cell"><span class="mini-badge" style="background:var(--green-50);color:var(--green-700)">Approved</span></span>
+                    </div>
+                    <div class="mini-table-row">
+                      <span class="mini-table-cell">TN10AZ8942</span>
+                      <span class="mini-table-cell">62.3%</span>
+                      <span class="mini-table-cell"><span class="mini-badge" style="background:var(--amber-50);color:var(--amber-600)">Review</span></span>
+                    </div>
+                    <div class="mini-table-row">
+                      <span class="mini-table-cell">KA05AB1142</span>
+                      <span class="mini-table-cell">97.2%</span>
+                      <span class="mini-table-cell"><span class="mini-badge" style="background:var(--green-50);color:var(--green-700)">Approved</span></span>
+                    </div>
+                    <div class="mini-table-row">
+                      <span class="mini-table-cell">DL04XY1234</span>
+                      <span class="mini-table-cell">94.5%</span>
+                      <span class="mini-table-cell"><span class="mini-badge" style="background:var(--red-50);color:var(--red-600)">Blocked</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-db-card">
+                  <div class="hero-db-card-title">
+                    <span>Parking Occupancy</span>
+                  </div>
+                  <div class="mini-occupancy">
+                    <div class="mini-occ-row">
+                      <span class="mini-occ-label">Lot A</span>
+                      <div class="mini-occ-bar"><div class="mini-occ-fill" style="width:70%;background:var(--blue-500)"></div></div>
+                      <span class="mini-occ-pct">70%</span>
+                    </div>
+                    <div class="mini-occ-row">
+                      <span class="mini-occ-label">Lot B</span>
+                      <div class="mini-occ-bar"><div class="mini-occ-fill" style="width:69%;background:var(--green-500)"></div></div>
+                      <span class="mini-occ-pct">69%</span>
+                    </div>
+                    <div class="mini-occ-row">
+                      <span class="mini-occ-label">Lot C</span>
+                      <div class="mini-occ-bar"><div class="mini-occ-fill" style="width:48%;background:var(--amber-500)"></div></div>
+                      <span class="mini-occ-pct">48%</span>
+                    </div>
+                    <div class="mini-occ-row">
+                      <span class="mini-occ-label">Lot D</span>
+                      <div class="mini-occ-bar"><div class="mini-occ-fill" style="width:70%;background:var(--purple-500)"></div></div>
+                      <span class="mini-occ-pct">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-db-card">
+                  <div class="hero-db-card-title">
+                    <span>Pricing Intelligence</span>
+                    <span class="mini-badge" style="background:var(--red-50);color:var(--red-600);font-size:8px">SURGE</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;gap:6px">
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                      <span style="font-size:9px;color:var(--text-secondary)">Lot A (Faculty)</span>
+                      <span style="font-size:11px;font-weight:700;color:var(--text-primary)">₹40/hr</span>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                      <span style="font-size:9px;color:var(--text-secondary)">Lot B (Student)</span>
+                      <span style="font-size:11px;font-weight:700;color:var(--red-500)">₹35/hr ↑</span>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                      <span style="font-size:9px;color:var(--text-secondary)">Lot C (Visitor)</span>
+                      <span style="font-size:11px;font-weight:700;color:var(--text-primary)">₹60/hr</span>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                      <span style="font-size:9px;color:var(--text-secondary)">Lot D (VIP)</span>
+                      <span style="font-size:11px;font-weight:700;color:var(--text-primary)">₹100/hr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted Metrics -->
+  <section class="landing-section alt-bg" id="metrics">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow">Trusted Infrastructure Intelligence</span>
+        <h2 class="section-title">Built for Scale. Proven in Production.</h2>
+      </div>
+      <div class="metrics-bar stagger">
+        <div class="metric-card">
+          <div class="metric-value">98.4%</div>
+          <div class="metric-label">ANPR Accuracy Rate</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">2.1M+</div>
+          <div class="metric-label">Vehicles Processed</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">34%</div>
+          <div class="metric-label">Parking Efficiency Improvement</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">18</div>
+          <div class="metric-label">Enterprise Deployments</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="landing-section" id="products">
+    <div class="container">
+      <span class="section-eyebrow">Product Suite</span>
+      <h2 class="section-title">Intelligent Infrastructure,<br />One Platform.</h2>
+      <p class="section-subtitle">End-to-end AI-powered solutions for vehicle intelligence, parking management, and operational analytics.</p>
+      <div class="products-grid stagger">
+        <div class="product-card">
+          <div class="product-card-icon blue">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>ANPR Intelligence</h3>
+          <p>AI-powered automatic number plate recognition with 98.4% accuracy. Real-time detection, blacklist monitoring, and OCR confidence scoring.</p>
+          <a href="app.html#anpr" class="learn-more">Explore ANPR →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-card-icon green">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>
+          </div>
+          <h3>Smart Parking</h3>
+          <p>Real-time occupancy mapping, zone management, violation detection, and congestion analytics for multi-zone parking facilities.</p>
+          <a href="app.html#parking" class="learn-more">Explore Parking →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-card-icon amber">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Institutional Dashboard</h3>
+          <p>Multi-role access control for admins, students, and faculty. Vehicle registration, permit management, and role-based dashboards.</p>
+          <a href="app.html#institutional" class="learn-more">Explore Dashboard →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-card-icon purple">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3>Logistics Tracking</h3>
+          <p>End-to-end truck movement tracking, gate management, warehouse utilization monitoring, and cargo intelligence.</p>
+          <a href="app.html#logistics" class="learn-more">Explore Logistics →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-card-icon red">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Dynamic Pricing Engine</h3>
+          <p>AI-driven demand-based pricing with occupancy-aware surge mechanics, role-based discounts, and revenue optimization.</p>
+          <a href="app.html#pricing" class="learn-more">Explore Pricing →</a>
+        </div>
+        <div class="product-card">
+          <div class="product-card-icon slate">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Analytics & Insights</h3>
+          <p>Executive-grade analytics with traffic flow visualization, congestion heatmaps, revenue forecasting, and operational intelligence.</p>
+          <a href="app.html#analytics" class="learn-more">Explore Analytics →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section class="landing-section alt-bg" id="use-cases">
+    <div class="container">
+      <span class="section-eyebrow">Use Cases</span>
+      <h2 class="section-title">Built for Complex Environments</h2>
+      <p class="section-subtitle">From university campuses to logistics hubs, Optisense AI adapts to your operational needs.</p>
+      <div class="usecases-grid stagger">
+        <div class="usecase-card">
+          <div class="usecase-card-header">🏫</div>
+          <h3>Universities & Colleges</h3>
+          <p class="pain-point">Managing 5,000+ vehicles across multi-zone campuses with manual processes leads to congestion, unauthorized parking, and revenue loss.</p>
+          <ul class="usecase-benefits">
+            <li>Automated vehicle registration & permit management</li>
+            <li>Zone-based access control (faculty, students, visitors)</li>
+            <li>Dynamic pricing for event days and peak hours</li>
+            <li>Real-time violation detection & alerts</li>
+          </ul>
+          <div class="usecase-roi">↗ 34% parking efficiency improvement</div>
+        </div>
+        <div class="usecase-card">
+          <div class="usecase-card-header">🏢</div>
+          <h3>Corporate Campuses</h3>
+          <p class="pain-point">Enterprise parking at scale requires seamless security, visitor management, and executive priority access without manual intervention.</p>
+          <ul class="usecase-benefits">
+            <li>Employee badge integration with ANPR</li>
+            <li>VIP & executive reserved parking</li>
+            <li>Visitor pre-registration & time-limited access</li>
+            <li>Sustainability metrics & EV charging integration</li>
+          </ul>
+          <div class="usecase-roi">↗ 28% operational cost reduction</div>
+        </div>
+        <div class="usecase-card">
+          <div class="usecase-card-header">🏙️</div>
+          <h3>Smart Cities</h3>
+          <p class="pain-point">Urban infrastructure needs centralized intelligence to manage traffic flow, public parking, and multi-agency coordination efficiently.</p>
+          <ul class="usecase-benefits">
+            <li>City-wide ANPR network integration</li>
+            <li>Public parking demand forecasting</li>
+            <li>Traffic congestion analytics & routing</li>
+            <li>Inter-agency data sharing platform</li>
+          </ul>
+          <div class="usecase-roi">↗ 41% congestion reduction</div>
+        </div>
+        <div class="usecase-card">
+          <div class="usecase-card-header">📦</div>
+          <h3>Logistics Parks</h3>
+          <p class="pain-point">High-volume truck movements require precise gate management, dwell time tracking, and warehouse coordination to prevent delays.</p>
+          <ul class="usecase-benefits">
+            <li>Automated gate entry/exit with ANPR</li>
+            <li>Dwell time monitoring & delay alerts</li>
+            <li>Warehouse utilization dashboards</li>
+            <li>Cargo verification & tracking</li>
+          </ul>
+          <div class="usecase-roi">↗ 23% throughput improvement</div>
+        </div>
+        <div class="usecase-card">
+          <div class="usecase-card-header">🏭</div>
+          <h3>Warehousing</h3>
+          <p class="pain-point">Large warehouse operations need visibility into loading dock utilization, delivery scheduling, and fleet coordination.</p>
+          <ul class="usecase-benefits">
+            <li>Loading dock scheduling & management</li>
+            <li>Fleet arrival prediction & queue management</li>
+            <li>Inventory movement correlation</li>
+            <li>Cross-dock optimization analytics</li>
+          </ul>
+          <div class="usecase-roi">↗ 19% dock utilization improvement</div>
+        </div>
+        <div class="usecase-card">
+          <div class="usecase-card-header">🏘️</div>
+          <h3>Gated Communities</h3>
+          <p class="pain-point">Residential complexes need frictionless resident access, visitor verification, and security alerting without compromising convenience.</p>
+          <ul class="usecase-benefits">
+            <li>Resident vehicle auto-recognition</li>
+            <li>Visitor pre-authorization via app</li>
+            <li>Suspicious vehicle alerts</li>
+            <li>Community parking analytics</li>
+          </ul>
+          <div class="usecase-roi">↗ 67% faster gate throughput</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Dashboard Preview -->
+  <section class="landing-section" id="demo">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow">Live Dashboard</span>
+        <h2 class="section-title">See It in Action</h2>
+        <p class="section-subtitle centered">A real-time operational dashboard that provides complete visibility into your infrastructure.</p>
+      </div>
+      <div class="demo-preview-wrapper">
+        <div class="demo-preview">
+          <div class="demo-preview-inner">
+            <div class="demo-topbar">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="url-bar">https://dashboard.optisense.ai</div>
+            </div>
+            <div class="demo-content">
+              <div class="demo-sidebar">
+                <div class="demo-sidebar-item active"><div class="demo-dot"></div> ANPR Intelligence</div>
+                <div class="demo-sidebar-item"><div class="demo-dot"></div> Smart Parking</div>
+                <div class="demo-sidebar-item"><div class="demo-dot"></div> Dynamic Pricing</div>
+                <div class="demo-sidebar-item"><div class="demo-dot"></div> Institutional</div>
+                <div class="demo-sidebar-item"><div class="demo-dot"></div> Logistics</div>
+                <div class="demo-sidebar-item"><div class="demo-dot"></div> Analytics</div>
+              </div>
+              <div class="demo-main">
+                <div class="demo-stats-row">
+                  <div class="demo-stat-card">
+                    <div class="demo-stat-label">Vehicles Today</div>
+                    <div class="demo-stat-value">1,247</div>
+                  </div>
+                  <div class="demo-stat-card">
+                    <div class="demo-stat-label">Active Alerts</div>
+                    <div class="demo-stat-value" style="color:var(--amber-400)">3</div>
+                  </div>
+                  <div class="demo-stat-card">
+                    <div class="demo-stat-label">Occupancy</div>
+                    <div class="demo-stat-value">66.3%</div>
+                  </div>
+                  <div class="demo-stat-card">
+                    <div class="demo-stat-label">Revenue</div>
+                    <div class="demo-stat-value" style="color:var(--green-400)">₹60.9K</div>
+                  </div>
+                </div>
+                <div class="demo-charts">
+                  <div class="demo-chart-card">
+                    <div class="demo-chart-title">Vehicle Flow — Today</div>
+                    <div class="mini-bars" style="height:80px">
+                      <div class="mini-bar" style="height:10%;background:rgba(59,130,246,0.3)"></div>
+                      <div class="mini-bar" style="height:25%;background:rgba(59,130,246,0.4)"></div>
+                      <div class="mini-bar" style="height:55%;background:rgba(59,130,246,0.5)"></div>
+                      <div class="mini-bar" style="height:85%;background:rgba(59,130,246,0.7)"></div>
+                      <div class="mini-bar" style="height:70%;background:rgba(59,130,246,0.6)"></div>
+                      <div class="mini-bar" style="height:50%;background:rgba(59,130,246,0.5)"></div>
+                      <div class="mini-bar" style="height:45%;background:rgba(59,130,246,0.4)"></div>
+                      <div class="mini-bar" style="height:40%;background:rgba(59,130,246,0.4)"></div>
+                      <div class="mini-bar" style="height:55%;background:rgba(59,130,246,0.5)"></div>
+                      <div class="mini-bar" style="height:75%;background:rgba(59,130,246,0.6)"></div>
+                      <div class="mini-bar" style="height:65%;background:rgba(59,130,246,0.6)"></div>
+                      <div class="mini-bar" style="height:50%;background:rgba(59,130,246,0.5)"></div>
+                      <div class="mini-bar" style="height:30%;background:rgba(59,130,246,0.3)"></div>
+                    </div>
+                  </div>
+                  <div class="demo-chart-card">
+                    <div class="demo-chart-title">Parking Zones</div>
+                    <div style="display:flex;flex-direction:column;gap:8px;padding-top:4px">
+                      <div style="display:flex;align-items:center;gap:8px">
+                        <span style="font-size:10px;color:var(--slate-400);width:50px">Lot A</span>
+                        <div style="flex:1;height:8px;background:rgba(255,255,255,0.06);border-radius:4px;overflow:hidden">
+                          <div style="width:70%;height:100%;background:var(--blue-400);border-radius:4px"></div>
+                        </div>
+                        <span style="font-size:10px;color:white;width:30px;text-align:right">70%</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:8px">
+                        <span style="font-size:10px;color:var(--slate-400);width:50px">Lot B</span>
+                        <div style="flex:1;height:8px;background:rgba(255,255,255,0.06);border-radius:4px;overflow:hidden">
+                          <div style="width:69%;height:100%;background:var(--green-400);border-radius:4px"></div>
+                        </div>
+                        <span style="font-size:10px;color:white;width:30px;text-align:right">69%</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:8px">
+                        <span style="font-size:10px;color:var(--slate-400);width:50px">Lot C</span>
+                        <div style="flex:1;height:8px;background:rgba(255,255,255,0.06);border-radius:4px;overflow:hidden">
+                          <div style="width:48%;height:100%;background:var(--amber-400);border-radius:4px"></div>
+                        </div>
+                        <span style="font-size:10px;color:white;width:30px;text-align:right">48%</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:8px">
+                        <span style="font-size:10px;color:var(--slate-400);width:50px">Lot D</span>
+                        <div style="flex:1;height:8px;background:rgba(255,255,255,0.06);border-radius:4px;overflow:hidden">
+                          <div style="width:70%;height:100%;background:var(--purple-400);border-radius:4px"></div>
+                        </div>
+                        <span style="font-size:10px;color:white;width:30px;text-align:right">70%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="demo-chart-card">
+                    <div class="demo-chart-title">Recent Detections</div>
+                    <div style="display:flex;flex-direction:column;gap:4px">
+                      <div style="display:flex;align-items:center;gap:6px;padding:3px 0">
+                        <span style="width:5px;height:5px;border-radius:50%;background:var(--green-400)"></span>
+                        <span style="font-family:var(--font-mono);font-size:10px;color:white">KA01MN4821</span>
+                        <span style="font-size:9px;color:var(--slate-500);margin-left:auto">09:14</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:6px;padding:3px 0">
+                        <span style="width:5px;height:5px;border-radius:50%;background:var(--amber-400)"></span>
+                        <span style="font-family:var(--font-mono);font-size:10px;color:white">TN10AZ8942</span>
+                        <span style="font-size:9px;color:var(--slate-500);margin-left:auto">09:16</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:6px;padding:3px 0">
+                        <span style="width:5px;height:5px;border-radius:50%;background:var(--green-400)"></span>
+                        <span style="font-family:var(--font-mono);font-size:10px;color:white">KA05AB1142</span>
+                        <span style="font-size:9px;color:var(--slate-500);margin-left:auto">09:18</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:6px;padding:3px 0">
+                        <span style="width:5px;height:5px;border-radius:50%;background:var(--red-400)"></span>
+                        <span style="font-family:var(--font-mono);font-size:10px;color:white">DL04XY1234</span>
+                        <span style="font-size:9px;color:var(--slate-500);margin-left:auto">09:28</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="demo-chart-card">
+                    <div class="demo-chart-title">Alerts</div>
+                    <div style="display:flex;flex-direction:column;gap:6px">
+                      <div style="display:flex;align-items:center;gap:6px;padding:4px 6px;background:rgba(239,68,68,0.1);border-radius:4px">
+                        <span style="font-size:9px">🔴</span>
+                        <span style="font-size:9px;color:var(--red-400)">Blacklisted vehicle at Gate C</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:6px;padding:4px 6px;background:rgba(245,158,11,0.1);border-radius:4px">
+                        <span style="font-size:9px">🟡</span>
+                        <span style="font-size:9px;color:var(--amber-400)">Lot B near capacity (91%)</span>
+                      </div>
+                      <div style="display:flex;align-items:center;gap:6px;padding:4px 6px;background:rgba(59,130,246,0.1);border-radius:4px">
+                        <span style="font-size:9px">🔵</span>
+                        <span style="font-size:9px;color:var(--blue-400)">Surge pricing active</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Optisense AI -->
+  <section class="landing-section dark-bg" id="why">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow" style="color:var(--blue-400)">Why Optisense AI</span>
+        <h2 class="section-title" style="color:white">Infrastructure Intelligence,<br />Redefined.</h2>
+        <p class="section-subtitle centered" style="color:var(--slate-400)">Purpose-built AI that understands the complexity of real-world infrastructure operations.</p>
+      </div>
+      <div class="why-grid stagger">
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3>Edge Intelligence</h3>
+          <p>AI models optimized for edge deployment. Sub-100ms detection latency with on-device processing for privacy and speed.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📡</div>
+          <h3>Real-Time Monitoring</h3>
+          <p>Live dashboards with instant alerts. Every vehicle movement, parking event, and anomaly detected in real-time.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🧠</div>
+          <h3>AI-Based Detection</h3>
+          <p>Deep learning models trained on 2M+ Indian vehicle plates. Handles diverse formats, lighting conditions, and angles.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🤖</div>
+          <h3>Full Automation</h3>
+          <p>From gate entry to violation enforcement. Automated workflows eliminate manual intervention and human error.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">💰</div>
+          <h3>Operational Savings</h3>
+          <p>Reduce security staffing by 40%, parking management costs by 34%, and gate processing time by 67%.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔒</div>
+          <h3>Enterprise Security</h3>
+          <p>SOC 2 ready architecture with end-to-end encryption, role-based access, and comprehensive audit logging.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="landing-section" id="pricing">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-eyebrow">Pricing</span>
+        <h2 class="section-title">Plans That Scale With You</h2>
+        <p class="section-subtitle centered">Flexible enterprise pricing with dedicated onboarding and support.</p>
+      </div>
+      <div class="pricing-grid stagger">
+        <div class="pricing-plan">
+          <div class="pricing-plan-name">Campus</div>
+          <p class="pricing-plan-desc">For educational institutions and small campuses</p>
+          <div class="pricing-plan-price">₹49,000</div>
+          <div class="pricing-plan-period">per month, billed annually</div>
+          <ul class="pricing-features">
+            <li>Up to 500 vehicles</li>
+            <li>2 ANPR cameras</li>
+            <li>Smart Parking (4 zones)</li>
+            <li>Institutional Dashboard</li>
+            <li>Basic Analytics</li>
+            <li>Email support</li>
+            <li class="disabled">Dynamic Pricing Engine</li>
+            <li class="disabled">Logistics Module</li>
+            <li class="disabled">API Access</li>
+          </ul>
+          <a href="#" class="btn btn-secondary w-full">Get Started</a>
+        </div>
+        <div class="pricing-plan featured">
+          <div class="pricing-plan-name">Enterprise</div>
+          <p class="pricing-plan-desc">For corporate campuses and large institutions</p>
+          <div class="pricing-plan-price">₹1,49,000</div>
+          <div class="pricing-plan-period">per month, billed annually</div>
+          <ul class="pricing-features">
+            <li>Up to 5,000 vehicles</li>
+            <li>8 ANPR cameras</li>
+            <li>Smart Parking (unlimited zones)</li>
+            <li>Multi-role Dashboard</li>
+            <li>Dynamic Pricing Engine</li>
+            <li>Advanced Analytics</li>
+            <li>Priority support (4hr SLA)</li>
+            <li>API Access & Webhooks</li>
+            <li class="disabled">Custom integrations</li>
+          </ul>
+          <a href="#" class="btn btn-primary w-full">Contact Sales</a>
+        </div>
+        <div class="pricing-plan">
+          <div class="pricing-plan-name">Logistics</div>
+          <p class="pricing-plan-desc">For logistics parks, warehouses, and smart cities</p>
+          <div class="pricing-plan-price">Custom</div>
+          <div class="pricing-plan-period">tailored to your infrastructure</div>
+          <ul class="pricing-features">
+            <li>Unlimited vehicles</li>
+            <li>Unlimited cameras</li>
+            <li>Full Product Suite</li>
+            <li>Logistics & Cargo Module</li>
+            <li>Dynamic Pricing Engine</li>
+            <li>Executive Analytics</li>
+            <li>Dedicated support engineer</li>
+            <li>Custom API integrations</li>
+            <li>On-premise deployment option</li>
+          </ul>
+          <a href="#" class="btn btn-secondary w-full">Talk to Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="landing-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-name">
+            <div class="nav-logo" style="width:28px;height:28px;font-size:13px">O</div>
+            Optisense AI
+          </div>
+          <p>AI-powered intelligent infrastructure for modern campuses, enterprises, and smart cities. Built in India, for the world.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Products</h4>
+          <ul class="footer-links">
+            <li><a href="app.html#anpr">ANPR Intelligence</a></li>
+            <li><a href="app.html#parking">Smart Parking</a></li>
+            <li><a href="app.html#pricing">Dynamic Pricing</a></li>
+            <li><a href="app.html#institutional">Institutional Dashboard</a></li>
+            <li><a href="app.html#logistics">Logistics Tracking</a></li>
+            <li><a href="app.html#analytics">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Compliance</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Optisense AI. All rights reserved.</span>
+        <span>Built with ♡ in India</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/landing.js"></script>
+</body>
+</html>
